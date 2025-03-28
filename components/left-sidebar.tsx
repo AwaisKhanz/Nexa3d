@@ -392,7 +392,7 @@ export function LeftSidebar() {
           <div className="mb-4">
             <div className="flex justify-between items-center mb-2">
               <span className="text-white text-sm">AI Model</span>
-              <span className="text-[#696969] text-sm">Omni4</span>
+              <span className="text-[#696969] text-sm">Nexa5</span>
             </div>
           </div>
 
