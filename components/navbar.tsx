@@ -119,15 +119,15 @@ export function Navbar({
         {/* Desktop navigation */}
         <nav className="hidden md:flex space-x-6">
           <a
-            href="https://x.com/Polymint_token"
+            href="https://x.com/SyntheticaCoin"
             target="_blank"
-            className="text-white text-sm hover:text-[#EAD080] transition-colors"
+            className="text-white text-sm hover:text-[#45f095] transition-colors"
           >
             Twitter
           </a>
           <a
             href="#"
-            className="text-white text-sm hover:text-[#EAD080] transition-colors"
+            className="text-white text-sm hover:text-[#45f095] transition-colors"
           >
             Token <span className="text-[#696969]">(Coming Soon)</span>
           </a>
@@ -136,7 +136,7 @@ export function Navbar({
         {/* Referral link */}
         <a
           href="#"
-          className="hidden md:flex items-center text-white text-sm ml-4 hover:text-[#EAD080] transition-colors"
+          className="hidden md:flex items-center text-white text-sm ml-4 hover:text-[#45f095] transition-colors"
           onClick={(e) => {
             e.preventDefault();
             addToast({
@@ -181,7 +181,7 @@ export function Navbar({
 
         {/* Connect wallet button */}
         <button
-          className="hidden xs:flex px-3 py-1.5 text-[#EAD080] text-sm bg-[#262626] !rounded-xl border border-[#3F3F3F] hover:bg-[#3f3f3f] transition-colors"
+          className="hidden xs:flex px-3 py-1.5 text-[#45f095] text-sm bg-[#262626] !rounded-xl border border-[#3F3F3F] hover:bg-[#3f3f3f] transition-colors"
           onClick={() => {
             const button = document.activeElement as HTMLButtonElement;
             const originalText = button.textContent;
@@ -196,12 +196,7 @@ export function Navbar({
 
         {/* Twitter button */}
         <button
-          className="hidden xs:flex px-3 py-1.5 text-white font-medium text-sm !rounded-xl hover:opacity-90 transition-colors"
-          style={{
-            background: `url(/bg_btn_background.png)`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
+          className="hidden xs:flex px-3 py-1.5 text-white font-medium text-sm !rounded-xl hover:opacity-90 transition-colors bg-[#45f095]"
           onClick={() => {
             addToast({
               type: "success",
@@ -211,7 +206,7 @@ export function Navbar({
             });
           }}
         >
-          <a href="https://x.com/Polymint_token" target="_blank">
+          <a href="https://x.com/SyntheticaCoin" target="_blank">
             Twitter
           </a>
         </button>
@@ -235,15 +230,15 @@ export function Navbar({
           <div className="px-4 py-3 space-y-3">
             <nav className="flex flex-col space-y-3">
               <a
-                href="https://x.com/Polymint_token"
+                href="https://x.com/SyntheticaCoin"
                 target="_blank"
-                className="text-white text-sm hover:text-[#EAD080] transition-colors"
+                className="text-white text-sm hover:text-[#45f095] transition-colors"
               >
                 Twitter
               </a>
               <a
                 href="#"
-                className="text-white text-sm hover:text-[#EAD080] transition-colors"
+                className="text-white text-sm hover:text-[#45f095] transition-colors"
               >
                 Token <span className="text-[#696969]">(Coming Soon)</span>
               </a>
@@ -255,7 +250,7 @@ export function Navbar({
 
             <div className="flex flex-col space-y-2">
               <button
-                className="w-full px-3 py-1.5 text-[#EAD080] text-sm bg-[#262626] !rounded-xl hover:bg-[#3f3f3f]"
+                className="w-full px-3 py-1.5 text-[#45f095] text-sm bg-[#262626] !rounded-xl hover:bg-[#3f3f3f]"
                 onClick={() => {
                   const button = document.activeElement as HTMLButtonElement;
                   const originalText = button.textContent;
@@ -268,12 +263,7 @@ export function Navbar({
                 Connect wallet
               </button>
               <button
-                className="w-full px-3 py-1.5 text-white font-medium !rounded-xl text-sm hover:opacity-90 transition-colors"
-                style={{
-                  background: `url(/bg_btn_background.png)`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
+                className="w-full px-3 py-1.5 text-white font-medium !rounded-xl text-sm hover:opacity-90 transition-colors bg-[#45f095]"
                 onClick={() => {
                   addToast({
                     type: "success",
@@ -283,7 +273,7 @@ export function Navbar({
                   });
                 }}
               >
-                <a href="https://x.com/Polymint_token" target="_blank">
+                <a href="https://x.com/SyntheticaCoin" target="_blank">
                   Twitter
                 </a>
               </button>
