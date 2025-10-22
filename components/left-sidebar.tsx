@@ -385,7 +385,7 @@ export function LeftSidebar() {
           <div className="mb-4">
             <div className="flex justify-between items-center mb-2">
               <span className="text-white text-sm">AI Model</span>
-              <span className="text-[#696969] text-sm">Polymint5</span>
+              <span className="text-[#696969] text-sm">Synthetica5.51</span>
             </div>
           </div>
 

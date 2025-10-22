@@ -38,11 +38,11 @@ export function Navbar({
           <div className="w-8 h-8 mr-2 flex items-center justify-center">
             <img
               src="/logo.png"
-              alt="Polymint Logo"
+              alt="Synthetica Logo"
               className="w-full h-full object-contain"
             />
           </div>
-          <span className="text-white font-bold text-lg">Polymint</span>
+          <span className="text-white font-bold text-lg">Synthetica</span>
         </div>
 
         {/* Update workspace selector */}
@@ -72,7 +72,7 @@ export function Navbar({
                 strokeWidth="1.5"
               />
             </svg>
-            <span className="hidden xs:inline">Polymint</span>
+            <span className="hidden xs:inline">Synthetica</span>
             <ChevronDown className="ml-1 h-4 w-4" />
           </button>
           <div className="absolute hidden group-hover:block top-full left-0 mt-1 w-64 bg-[#262626] rounded-md shadow-lg z-50">
