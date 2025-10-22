@@ -10,10 +10,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Nexa3D</title>
+        <title>Polymint</title>
         <meta
           name="description"
-          content="Nexa3D - AI-powered 3D model generation"
+          content="Polymint - AI-powered 3D model generation"
         />
       </head>
       <body>

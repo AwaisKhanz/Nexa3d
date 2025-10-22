@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { Info } from "lucide-react";
 import { useToast } from "@/components/ui/toast";
-import { EXAMPLE_PROMPTS, MAX_GENERATIONS, GUIDE_URL } from "@/lib/constants";
+import { EXAMPLE_PROMPTS, MAX_GENERATIONS, TWITTER_URL } from "@/lib/constants";
 
 export function LeftSidebar() {
   const [promptText, setPromptText] = useState("");
@@ -350,10 +350,10 @@ export function LeftSidebar() {
               </button>
               <button
                 className="flex items-center text-[#6C99F2] text-xs hover:opacity-80"
-                onClick={() => window.open(GUIDE_URL, "_blank")}
+                onClick={() => window.open(TWITTER_URL, "_blank")}
               >
                 <a
-                  href="https://nexa3d.gitbook.io/nexa3d"
+                  href="https://x.com/Polymint_token"
                   target="_blank"
                   className="flex items-center"
                 >
@@ -369,7 +369,7 @@ export function LeftSidebar() {
                       strokeWidth="1.5"
                     />
                   </svg>
-                  Guide
+                  Twitter
                 </a>
               </button>
             </div>
@@ -392,7 +392,7 @@ export function LeftSidebar() {
           <div className="mb-4">
             <div className="flex justify-between items-center mb-2">
               <span className="text-white text-sm">AI Model</span>
-              <span className="text-[#696969] text-sm">Nexa5</span>
+              <span className="text-[#696969] text-sm">Polymint5</span>
             </div>
           </div>
 

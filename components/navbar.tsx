@@ -38,11 +38,11 @@ export function Navbar({
           <div className="w-8 h-8 mr-2 flex items-center justify-center">
             <img
               src="/logo.png"
-              alt="Nexa3D Logo"
+              alt="Polymint Logo"
               className="w-full h-full object-contain"
             />
           </div>
-          <span className="text-white font-bold text-lg">Nexa3D</span>
+          <span className="text-white font-bold text-lg">Polymint</span>
         </div>
 
         {/* Update workspace selector */}
@@ -72,7 +72,7 @@ export function Navbar({
                 strokeWidth="1.5"
               />
             </svg>
-            <span className="hidden xs:inline">Nexa3D</span>
+            <span className="hidden xs:inline">Polymint</span>
             <ChevronDown className="ml-1 h-4 w-4" />
           </button>
           <div className="absolute hidden group-hover:block top-full left-0 mt-1 w-64 bg-[#262626] rounded-md shadow-lg z-50">
@@ -119,18 +119,11 @@ export function Navbar({
         {/* Desktop navigation */}
         <nav className="hidden md:flex space-x-6">
           <a
-            href="https://linktr.ee/nexa3dofficial"
+            href="https://x.com/Polymint_token"
             target="_blank"
             className="text-white text-sm hover:text-[#EAD080] transition-colors"
           >
-            Socials
-          </a>
-          <a
-            href="https://nexa3d.gitbook.io/nexa3d"
-            target="_blank"
-            className="text-white text-sm hover:text-[#EAD080] transition-colors"
-          >
-            Docs
+            Twitter
           </a>
           <a
             href="#"
@@ -201,7 +194,7 @@ export function Navbar({
           Connect wallet
         </button>
 
-        {/* Telegram button */}
+        {/* Twitter button */}
         <button
           className="hidden xs:flex px-3 py-1.5 text-white font-medium text-sm !rounded-xl hover:opacity-90 transition-colors"
           style={{
@@ -212,14 +205,14 @@ export function Navbar({
           onClick={() => {
             addToast({
               type: "success",
-              title: "Telegram",
-              description: "Opening Telegram community...",
+              title: "Twitter",
+              description: "Opening Twitter...",
               duration: 3000,
             });
           }}
         >
-          <a href="https://t.me/nexa3dofficial" target="_blank">
-            Telegram
+          <a href="https://x.com/Polymint_token" target="_blank">
+            Twitter
           </a>
         </button>
 
@@ -242,18 +235,11 @@ export function Navbar({
           <div className="px-4 py-3 space-y-3">
             <nav className="flex flex-col space-y-3">
               <a
-                href="https://linktr.ee/nexa3dofficial"
+                href="https://x.com/Polymint_token"
                 target="_blank"
                 className="text-white text-sm hover:text-[#EAD080] transition-colors"
               >
-                Socials
-              </a>
-              <a
-                href="https://nexa3d.gitbook.io/nexa3d"
-                target="_blank"
-                className="text-white text-sm hover:text-[#EAD080] transition-colors"
-              >
-                Docs
+                Twitter
               </a>
               <a
                 href="#"
@@ -291,13 +277,15 @@ export function Navbar({
                 onClick={() => {
                   addToast({
                     type: "success",
-                    title: "Telegram",
-                    description: "Opening Telegram community...",
+                    title: "Twitter",
+                    description: "Opening Twitter...",
                     duration: 3000,
                   });
                 }}
               >
-                Telegram
+                <a href="https://x.com/Polymint_token" target="_blank">
+                  Twitter
+                </a>
               </button>
               <a
                 href="#"

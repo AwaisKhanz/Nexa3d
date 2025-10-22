@@ -38,4 +38,4 @@ export const WORKSPACE_OPTIONS = [
 ];
 
 export const MAX_GENERATIONS = 3;
-export const GUIDE_URL = "https://nexa3d.gitbook.io/nexa3d"; // Replace with actual guide URL
+export const TWITTER_URL = "https://x.com/Polymint_token";
