@@ -13,9 +13,8 @@ export function LeftSidebar() {
   const [polycountLevel, setPolycountLevel] = useState("high");
   const [topology, setTopology] = useState("quad");
   const [symmetry, setSymmetry] = useState("auto");
-  const [artStyle, setArtStyle] = useState("pbr");
+  const [artStyle, setArtStyle] = useState("realistic");
   const [isGenerating, setIsGenerating] = useState(false);
-  const [enablePBR, setEnablePBR] = useState(false);
   const { addToast } = useToast();
 
   // Initialize with default value, will be updated in useEffect
@@ -32,23 +31,17 @@ export function LeftSidebar() {
 
   // Art style options
   const artStyles = [
-    // {
-    //   id: "realistic",
-    //   name: "Realistic",
-    //   image:
-    //     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-in7qowGSQsA8EbXkdv705wL4OFsdjw.png",
-    // },
-    // {
-    //   id: "sculpture",
-    //   name: "Sculpture",
-    //   image:
-    //     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image%20%281%29-nLpTAVABa12D2PMXyGVFiHHX3hpxsm.png",
-    // },
     {
-      id: "pbr",
-      name: "PBR",
+      id: "realistic",
+      name: "Realistic",
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image%20%282%29-zbPu8ujVNFE9Pu40Nz4HmdYdybZXmz.png",
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-in7qowGSQsA8EbXkdv705wL4OFsdjw.png",
+    },
+    {
+      id: "sculpture",
+      name: "Sculpture",
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image%20%281%29-nLpTAVABa12D2PMXyGVFiHHX3hpxsm.png",
     },
   ];
 
@@ -409,10 +402,6 @@ export function LeftSidebar() {
                   } rounded-[12px] hover:border hover:border-[#EAD080]/50`}
                   onClick={() => {
                     setArtStyle(style.id);
-                    // Disable PBR for sculpture style
-                    if (style.id === "sculpture") {
-                      setEnablePBR(false);
-                    }
                   }}
                   disabled={isGenerating}
                 >
