@@ -38,4 +38,4 @@ export const WORKSPACE_OPTIONS = [
 ];
 
 export const MAX_GENERATIONS = 3;
-export const TWITTER_URL = "https://x.com/SyntheticaCoin";
+export const TWITTER_URL = "https://x.com/x402forge";

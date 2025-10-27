@@ -10,10 +10,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Synthetica</title>
+        <title>X402 Forge</title>
         <meta
           name="description"
-          content="Synthetica - AI-powered 3D model generation"
+          content="X402 Forge - AI-powered 3D model generation"
         />
       </head>
       <body>

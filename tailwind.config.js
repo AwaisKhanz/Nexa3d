@@ -28,9 +28,9 @@ module.exports = {
         subtle: "#505050",
 
         // Brand colors
-        primary: "#45f095",
+        primary: "#d39fe6",
         secondary: "#c5f955",
-        accent: "#45f095",
+        accent: "#d39fe6",
         link: "#6c99f2",
 
         // Functional colors
