@@ -119,7 +119,7 @@ export function Navbar({
         {/* Desktop navigation */}
         <nav className="hidden md:flex space-x-6">
           <a
-            href="https://x.com/X402 ForgeCoin"
+            href="https://x.com/x402forge"
             target="_blank"
             className="text-white text-sm hover:text-[#d39fe6] transition-colors"
           >
@@ -206,7 +206,7 @@ export function Navbar({
             });
           }}
         >
-          <a href="https://x.com/X402 ForgeCoin" target="_blank">
+          <a href="https://x.com/x402forge" target="_blank">
             Twitter
           </a>
         </button>
@@ -230,7 +230,7 @@ export function Navbar({
           <div className="px-4 py-3 space-y-3">
             <nav className="flex flex-col space-y-3">
               <a
-                href="https://x.com/X402 ForgeCoin"
+                href="https://x.com/x402forge"
                 target="_blank"
                 className="text-white text-sm hover:text-[#d39fe6] transition-colors"
               >
@@ -273,7 +273,7 @@ export function Navbar({
                   });
                 }}
               >
-                <a href="https://x.com/X402 ForgeCoin" target="_blank">
+                <a href="https://x.com/x402forge" target="_blank">
                   Twitter
                 </a>
               </button>
