@@ -67,6 +67,9 @@
     "@react-three/fiber": "latest",
     "@react-three/drei": "latest"
   },
+  "engines": {
+    "node": ">=24.4.0"
+  },
   "devDependencies": {
     "@types/node": "^22",
     "@types/react": "^19",
