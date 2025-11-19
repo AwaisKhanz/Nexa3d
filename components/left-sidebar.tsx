@@ -346,7 +346,7 @@ export function LeftSidebar() {
                 onClick={() => window.open(TWITTER_URL, "_blank")}
               >
                 <a
-                  href="https://x.com/x402forge"
+                  href="https://x.com/Polymint_token"
                   target="_blank"
                   className="flex items-center"
                 >
@@ -385,7 +385,7 @@ export function LeftSidebar() {
           <div className="mb-4">
             <div className="flex justify-between items-center mb-2">
               <span className="text-white text-sm">AI Model</span>
-              <span className="text-[#696969] text-sm">Forge5.5.1</span>
+              <span className="text-[#696969] text-sm">Polymint5</span>
             </div>
           </div>
 

@@ -10,10 +10,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>X402 Forge</title>
+        <title>Polymint</title>
         <meta
           name="description"
-          content="X402 Forge - AI-powered 3D model generation"
+          content="Polymint - AI-powered 3D model generation"
         />
       </head>
       <body>

@@ -38,11 +38,11 @@ export function Navbar({
           <div className="w-8 h-8 mr-2 flex items-center justify-center">
             <img
               src="/logo.png"
-              alt="X402 Forge Logo"
+              alt="Polymint Logo"
               className="w-full h-full object-contain"
             />
           </div>
-          <span className="text-white font-bold text-lg">X402 Forge</span>
+          <span className="text-white font-bold text-lg">Polymint</span>
         </div>
 
         {/* Update workspace selector */}
@@ -72,7 +72,7 @@ export function Navbar({
                 strokeWidth="1.5"
               />
             </svg>
-            <span className="hidden xs:inline">X402 Forge</span>
+            <span className="hidden xs:inline">Polymint</span>
             <ChevronDown className="ml-1 h-4 w-4" />
           </button>
           <div className="absolute hidden group-hover:block top-full left-0 mt-1 w-64 bg-[#262626] rounded-md shadow-lg z-50">
@@ -119,7 +119,7 @@ export function Navbar({
         {/* Desktop navigation */}
         <nav className="hidden md:flex space-x-6">
           <a
-            href="https://x.com/x402forge"
+            href="https://x.com/Polymint_token"
             target="_blank"
             className="text-white text-sm hover:text-[#d39fe6] transition-colors"
           >
@@ -206,7 +206,7 @@ export function Navbar({
             });
           }}
         >
-          <a href="https://x.com/x402forge" target="_blank">
+          <a href="https://x.com/Polymint_token" target="_blank">
             Twitter
           </a>
         </button>
@@ -230,7 +230,7 @@ export function Navbar({
           <div className="px-4 py-3 space-y-3">
             <nav className="flex flex-col space-y-3">
               <a
-                href="https://x.com/x402forge"
+                href="https://x.com/Polymint_token"
                 target="_blank"
                 className="text-white text-sm hover:text-[#d39fe6] transition-colors"
               >
@@ -273,7 +273,7 @@ export function Navbar({
                   });
                 }}
               >
-                <a href="https://x.com/x402forge" target="_blank">
+                <a href="https://x.com/Polymint_token" target="_blank">
                   Twitter
                 </a>
               </button>
