@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ChevronDown, Globe, Menu, X } from "lucide-react";
 import { CopyButton } from "@/components/copy-button";
 import { useToast } from "@/components/ui/toast";
-import { WORKSPACE_OPTIONS } from "@/lib/constants";
+import { TWITTER_URL, WORKSPACE_OPTIONS } from "@/lib/constants";
 
 export function Navbar({
   sidebarOpen,
@@ -206,9 +206,9 @@ export function Navbar({
             });
           }}
         >
-          <a href="https://x.com/Polymint_token" target="_blank">
+          <a href={TWITTER_URL} target="_blank">
             Twitter
-          </a>
+          </a>  
         </button>
 
         {/* Mobile menu button */}
@@ -230,7 +230,7 @@ export function Navbar({
           <div className="px-4 py-3 space-y-3">
             <nav className="flex flex-col space-y-3">
               <a
-                href="https://x.com/Polymint_token"
+                href="https://x.com/MINT3dAI"
                 target="_blank"
                 className="text-white text-sm hover:text-[#d39fe6] transition-colors"
               >
@@ -273,7 +273,7 @@ export function Navbar({
                   });
                 }}
               >
-                <a href="https://x.com/Polymint_token" target="_blank">
+                <a href={TWITTER_URL} target="_blank">
                   Twitter
                 </a>
               </button>
