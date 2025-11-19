@@ -119,7 +119,7 @@ export function Navbar({
         {/* Desktop navigation */}
         <nav className="hidden md:flex space-x-6">
           <a
-            href="https://x.com/Polymint_token"
+            href={TWITTER_URL}
             target="_blank"
             className="text-white text-sm hover:text-[#d39fe6] transition-colors"
           >
@@ -208,7 +208,7 @@ export function Navbar({
         >
           <a href={TWITTER_URL} target="_blank">
             Twitter
-          </a>  
+          </a>
         </button>
 
         {/* Mobile menu button */}
