@@ -10,10 +10,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Polymint</title>
+        <title>Mint3D</title>
         <meta
           name="description"
-          content="Polymint - AI-powered 3D model generation"
+          content="Mint3D - AI-powered 3D model generation"
         />
       </head>
       <body>
