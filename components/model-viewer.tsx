@@ -94,7 +94,7 @@ function LoadingSpinner({ progress = 0 }) {
   return (
     <Html center>
       <div className="flex flex-col items-center justify-center">
-        <div className="w-16 h-16 border-4 border-t-[#d39fe6] border-[#3f3f3f] rounded-full animate-spin"></div>
+        <div className="w-16 h-16 border-4 border-t-[#836EF9] border-[#3f3f3f] rounded-full animate-spin"></div>
         <div className="mt-4 text-white text-sm">{progress}% Complete</div>
       </div>
     </Html>
@@ -198,7 +198,7 @@ export function ModelViewer({
   if (status === "PENDING" || status === "IN_PROGRESS") {
     return (
       <div className="w-full h-full flex flex-col items-center justify-center">
-        <div className="w-16 h-16 border-4 border-t-[#d39fe6] border-[#3f3f3f] rounded-full animate-spin"></div>
+        <div className="w-16 h-16 border-4 border-t-[#836EF9] border-[#3f3f3f] rounded-full animate-spin"></div>
         <div className="mt-4 text-white text-sm">{progress}% Complete</div>
         {thumbnailUrl && status === "IN_PROGRESS" && progress > 50 && (
           <div className="mt-8">
@@ -237,13 +237,13 @@ export function ModelViewer({
         <p className="mt-4 text-white text-sm font-semibold">
           Preview Generated
         </p>
-        <p className="text-[#d39fe6] text-sm mt-2 text-center">
+        <p className="text-[#836EF9] text-sm mt-2 text-center">
           Click "Apply Textures" in the left sidebar to generate the final 3D
           model
         </p>
         <div className="mt-4 flex items-center">
-          <div className="w-3 h-3 bg-[#c5f955] rounded-full mr-2"></div>
-          <p className="text-[#c5f955] text-xs">Ready for texturing</p>
+          <div className="w-3 h-3 bg-[#836EF9] rounded-full mr-2"></div>
+          <p className="text-[#836EF9] text-xs">Ready for texturing</p>
         </div>
       </div>
     );

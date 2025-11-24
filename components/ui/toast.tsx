@@ -94,7 +94,7 @@ function Toast({
   const getIcon = () => {
     switch (type) {
       case "success":
-        return <Check className="h-4 w-4 text-[#c5f955]" />;
+        return <Check className="h-4 w-4 text-[#836EF9]" />;
       case "error":
         return <AlertCircle className="h-4 w-4 text-red-500" />;
       case "info":
@@ -107,7 +107,7 @@ function Toast({
   const getBgColor = () => {
     switch (type) {
       case "success":
-        return "bg-[#262626] border-l-[#c5f955]";
+        return "bg-[#262626] border-l-[#836EF9]";
       case "error":
         return "bg-[#262626] border-l-red-500";
       case "info":

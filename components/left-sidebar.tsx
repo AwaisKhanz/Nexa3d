@@ -346,7 +346,7 @@ export function LeftSidebar() {
                 onClick={() => window.open(TWITTER_URL, "_blank")}
               >
                 <a
-                  href="https://x.com/MINT3dAI"
+                  href="https://x.com/AetherMonad"
                   target="_blank"
                   className="flex items-center"
                 >
@@ -385,7 +385,7 @@ export function LeftSidebar() {
           <div className="mb-4">
             <div className="flex justify-between items-center mb-2">
               <span className="text-white text-sm">AI Model</span>
-              <span className="text-[#696969] text-sm">Mint3D5</span>
+              <span className="text-[#696969] text-sm">Aether Bloom 5</span>
             </div>
           </div>
 
@@ -397,9 +397,9 @@ export function LeftSidebar() {
                   key={style.id}
                   className={`flex items-center justify-between px-3 py-0 ${
                     artStyle === style.id
-                      ? "border-[#d39fe6] border bg-[#262626] !text-[#d39fe6]  "
+                      ? "border-[#836EF9] border bg-[#262626] !text-[#836EF9]  "
                       : "bg-[#181818]"
-                  } rounded-[12px] hover:border hover:border-[#d39fe6]/50`}
+                  } rounded-[12px] hover:border hover:border-[#836EF9]/50`}
                   onClick={() => {
                     setArtStyle(style.id);
                   }}
@@ -431,7 +431,7 @@ export function LeftSidebar() {
                   key={option.id}
                   className={`py-1.5 px-3 ${
                     polycount === option.id
-                      ? "bg-[#d39fe6]/15 !text-[#d39fe6] rounded-xl"
+                      ? "bg-[#836EF9]/15 !text-[#836EF9] rounded-xl"
                       : "bg-transparent text-white"
                   } text-sm rounded-md`}
                   onClick={() => setPolycount(option.id)}
@@ -448,7 +448,7 @@ export function LeftSidebar() {
                   key={level.id}
                   className={`py-1.5 px-2 ${
                     polycountLevel === level.id
-                      ? "bg-[#d39fe6]/15 text-[#d39fe6] rounded-xl"
+                      ? "bg-[#836EF9]/15 text-[#836EF9] rounded-xl"
                       : "bg-transparent text-white"
                   } text-xs rounded-md`}
                   onClick={() => setPolycountLevel(level.id)}
@@ -471,7 +471,7 @@ export function LeftSidebar() {
                   key={option.id}
                   className={`flex items-center justify-center py-1.5 px-3 ${
                     topology === option.id
-                      ? "bg-[#d39fe6]/15 text-[#d39fe6] rounded-xl"
+                      ? "bg-[#836EF9]/15 text-[#836EF9] rounded-xl"
                       : "bg-transparent text-white"
                   } text-sm rounded-md`}
                   onClick={() => setTopology(option.id)}
@@ -492,7 +492,7 @@ export function LeftSidebar() {
                   key={option.id}
                   className={`py-1.5 px-3 ${
                     symmetry === option.id
-                      ? "bg-[#d39fe6]/15 text-[#d39fe6] rounded-xl"
+                      ? "bg-[#836EF9]/15 text-[#836EF9] rounded-xl"
                       : "bg-transparent text-white"
                   } text-sm rounded-md`}
                   onClick={() => setSymmetry(option.id)}
@@ -512,7 +512,7 @@ export function LeftSidebar() {
               </div>
               <button
                 className={`w-10 h-5 rounded-full relative ${
-                  fixedSeed ? "bg-[#d39fe6]" : "bg-[#3f3f3f]"
+                  fixedSeed ? "bg-[#836EF9]" : "bg-[#3f3f3f]"
                 }`}
                 onClick={() => setFixedSeed(!fixedSeed)}
                 disabled={isGenerating}
@@ -552,7 +552,7 @@ export function LeftSidebar() {
             </div>
           </div>
           <button
-            className="w-full py-2 bg-[#d39fe6] text-white rounded-md flex items-center justify-center disabled:opacity-50"
+            className="w-full py-2 bg-[#836EF9] text-white rounded-md flex items-center justify-center disabled:opacity-50"
             onClick={handleGenerate}
             disabled={isGenerating || !promptText.trim()}
           >
@@ -618,7 +618,7 @@ export function LeftSidebar() {
           </div>
         </div>
         <button
-          className="w-full py-2 bg-[#d39fe6] text-white !rounded-xl flex items-center justify-center disabled:opacity-50"
+          className="w-full py-2 bg-[#836EF9] text-white !rounded-xl flex items-center justify-center disabled:opacity-50"
           onClick={handleGenerate}
           disabled={isGenerating || !promptText.trim()}
         >
