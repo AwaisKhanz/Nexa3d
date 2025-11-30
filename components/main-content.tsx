@@ -489,7 +489,7 @@ export function MainContent() {
         <div className="flex-1 overflow-y-auto p-4 space-y-8">
           {isLoading && allTasks.length === 0 ? (
             <div className="flex items-center justify-center h-full">
-              <div className="w-8 h-8 border-2 border-t-[#836EF9] border-[#3f3f3f] rounded-full animate-spin"></div>
+              <div className="w-8 h-8 border-2 border-t-[#FFE49A] border-[#3f3f3f] rounded-full animate-spin"></div>
             </div>
           ) : (
             <>
@@ -505,7 +505,7 @@ export function MainContent() {
                         key={task.id}
                         className={`bg-[#262626] rounded-lg overflow-hidden transition-all hover:scale-[1.02] cursor-pointer ${
                           selectedTask?.id === task.id
-                            ? "ring-2 ring-[#836EF9]"
+                            ? "ring-2 ring-[#FFE49A]"
                             : ""
                         }`}
                         onClick={() => {
@@ -525,7 +525,7 @@ export function MainContent() {
                             />
                           ) : (
                             <div className="flex flex-col items-center justify-center">
-                              <div className="w-10 h-10 border-2 border-t-[#836EF9] border-[#3f3f3f] rounded-full animate-spin mb-2"></div>
+                              <div className="w-10 h-10 border-2 border-t-[#FFE49A] border-[#3f3f3f] rounded-full animate-spin mb-2"></div>
                               <div className="text-white text-sm">
                                 {task.progress || 0}% Complete
                               </div>
@@ -534,7 +534,7 @@ export function MainContent() {
                           {/* Progress bar overlay */}
                           <div className="absolute bottom-0 left-0 right-0 h-1 bg-[#3f3f3f]">
                             <div
-                              className="h-full bg-[#836EF9]"
+                              className="h-full bg-[#FFE49A]"
                               style={{ width: `${task.progress || 0}%` }}
                             ></div>
                           </div>
@@ -547,7 +547,7 @@ export function MainContent() {
                             <span className="text-[#696969] text-xs">
                               {new Date(task.created_at).toLocaleDateString()}
                             </span>
-                            <span className="text-xs px-2 py-0.5 rounded-full bg-[#836EF9]/30 text-[#836EF9]">
+                            <span className="text-xs px-2 py-0.5 rounded-full bg-[#FFE49A]/30 text-[#FFE49A]">
                               {task.mode === "preview"
                                 ? "Generating"
                                 : "Texturing"}{" "}
@@ -573,7 +573,7 @@ export function MainContent() {
                         key={task.id}
                         className={`bg-[#262626] rounded-lg overflow-hidden transition-all hover:scale-[1.02] cursor-pointer ${
                           selectedTask?.id === task.id
-                            ? "ring-2 ring-[#836EF9]"
+                            ? "ring-2 ring-[#FFE49A]"
                             : ""
                         }`}
                         onClick={() => {
@@ -608,7 +608,7 @@ export function MainContent() {
                                 e.stopPropagation();
                                 handleTexture(task);
                               }}
-                              className="p-2 bg-[#836EF9] text-white rounded-md disabled:opacity-50"
+                              className="p-2 bg-[#FFE49A] text-white rounded-md disabled:opacity-50"
                               disabled={
                                 isTexturing || texturingTaskId === task.id
                               }
@@ -637,7 +637,7 @@ export function MainContent() {
                         key={task.id}
                         className={`bg-[#262626] rounded-lg overflow-hidden cursor-pointer transition-all hover:scale-[1.02] ${
                           selectedTask?.id === task.id
-                            ? "ring-2 ring-[#836EF9]"
+                            ? "ring-2 ring-[#FFE49A]"
                             : ""
                         }`}
                         onClick={() => {
@@ -928,7 +928,7 @@ export function MainContent() {
             const newView = mobileView === "list" ? "model" : "list";
             setMobileView(newView);
           }}
-          className="flex items-center justify-center w-14 h-14 rounded-full bg-[#836EF9] text-white shadow-lg hover:bg-[#836EF9] transition-colors"
+          className="flex items-center justify-center w-14 h-14 rounded-full bg-[#FFE49A] text-white shadow-lg hover:bg-[#FFE49A] transition-colors"
           aria-label={`Switch to ${
             mobileView === "list" ? "model" : "list"
           } view`}

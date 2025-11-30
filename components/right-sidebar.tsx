@@ -135,7 +135,7 @@ export function RightSidebar({
       {/* Download button at bottom */}
       <div className="my-4">
         <button
-          className="p-2 bg-[#836EF9] text-white !rounded-xl hover:bg-[#836EF9] transition-colors"
+          className="p-2 bg-[#FFE49A] text-white !rounded-xl hover:bg-[#FFE49A] transition-colors"
           title="Download"
         >
           <Download className="h-5 w-5" />

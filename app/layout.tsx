@@ -10,10 +10,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Aether Bloom</title>
+        <title>Poke3d</title>
         <meta
           name="description"
-          content="Aether Bloom - AI-powered 3D model generation"
+          content="Poke3d - AI-powered 3D model generation"
         />
       </head>
       <body>
