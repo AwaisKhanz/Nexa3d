@@ -1,9 +1,9 @@
 export const EXAMPLE_PROMPTS = [
-  "A cute robot companion with rounded edges and friendly features",
-  "An ancient magical staff with crystals and intricate runes",
-  "A futuristic hover bike with sleek aerodynamic design",
-  "A mystical floating island with waterfalls and crystal formations",
-  "A sci-fi battle mech with detailed armor plating",
+  "Full body 3D model of Pikachu. No humans, no text.",
+  "Full body 3D model of Charizard. No humans, no text.",
+  "Full body 3D model of Bulbasaur. No humans, no text.",
+  "Full body 3D model of Squirtle. No humans, no text.",
+  "Full body 3D model of Eevee. No humans, no text.",
 ];
 
 export const WORKSPACE_OPTIONS = [

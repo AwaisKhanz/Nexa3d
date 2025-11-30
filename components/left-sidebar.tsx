@@ -371,7 +371,7 @@ export function LeftSidebar() {
           <div className="relative mb-4">
             <textarea
               className="w-full h-[176px] bg-[#181818] border border-solid border-[#3F3F3F] text-white text-sm p-3 rounded-xl resize-none"
-              placeholder="Describe the object you want to generate. You can use your native language e.g., a cute dog/ein süßer Hund/un chien mignon/一只可爱的狗/かわいい犬/etc."
+              placeholder="Full body 3D model of a Pokémon. No humans, no text."
               value={promptText}
               onChange={(e) => setPromptText(e.target.value)}
               disabled={isGenerating}
