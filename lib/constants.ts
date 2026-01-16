@@ -1,9 +1,9 @@
 export const EXAMPLE_PROMPTS = [
-  "Full body 3D model of Pikachu. No humans, no text.",
-  "Full body 3D model of Charizard. No humans, no text.",
-  "Full body 3D model of Bulbasaur. No humans, no text.",
-  "Full body 3D model of Squirtle. No humans, no text.",
-  "Full body 3D model of Eevee. No humans, no text.",
+  "Full body 3D model of a cute robot. No humans, no text.",
+  "Full body 3D model of a fantasy creature. No humans, no text.",
+  "Full body 3D model of a sci-fi drone. No humans, no text.",
+  "Full body 3D model of a cartoon animal. No humans, no text.",
+  "Full body 3D model of a mystical beast. No humans, no text.",
 ];
 
 export const WORKSPACE_OPTIONS = [
@@ -38,4 +38,4 @@ export const WORKSPACE_OPTIONS = [
 ];
 
 export const MAX_GENERATIONS = 3;
-export const TWITTER_URL = "https://x.com/PokePrint3D";
+export const TWITTER_URL = "https://x.com/i/communities/2012249752759423395/";

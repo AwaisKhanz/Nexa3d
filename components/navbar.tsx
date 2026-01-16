@@ -38,11 +38,11 @@ export function Navbar({
           <div className="w-20 h-20 mr-2 flex items-center justify-center">
             <img
               src="/logo.png"
-              alt="Poke3d Logo"
+              alt="Claud3D Logo"
               className="w-full h-full object-contain"
             />
           </div>
-          {/* <span className="text-white font-bold text-lg">Poke3d</span> */}
+          {/* <span className="text-white font-bold text-lg">Claud3D</span> */}
         </div>
 
         {/* Update workspace selector */}
@@ -72,7 +72,7 @@ export function Navbar({
                 strokeWidth="1.5"
               />
             </svg>
-            <span className="hidden xs:inline">Poke3d</span>
+            <span className="hidden xs:inline">Claud3D</span>
             <ChevronDown className="ml-1 h-4 w-4" />
           </button>
           <div className="absolute hidden group-hover:block top-full left-0 mt-1 w-64 bg-[#262626] rounded-md shadow-lg z-50">
@@ -121,13 +121,13 @@ export function Navbar({
           <a
             href={TWITTER_URL}
             target="_blank"
-            className="text-white text-sm hover:text-[#FFE49A] transition-colors"
+            className="text-white text-sm hover:text-[#c15f3c] transition-colors"
           >
             Twitter
           </a>
           <a
             href="#"
-            className="text-white text-sm hover:text-[#FFE49A] transition-colors"
+            className="text-white text-sm hover:text-[#c15f3c] transition-colors"
           >
             Token <span className="text-[#696969]">(Coming Soon)</span>
           </a>
@@ -136,7 +136,7 @@ export function Navbar({
         {/* Referral link */}
         <a
           href="#"
-          className="hidden md:flex items-center text-white text-sm ml-4 hover:text-[#FFE49A] transition-colors"
+          className="hidden md:flex items-center text-white text-sm ml-4 hover:text-[#c15f3c] transition-colors"
           onClick={(e) => {
             e.preventDefault();
             addToast({
@@ -181,7 +181,7 @@ export function Navbar({
 
         {/* Connect wallet button */}
         <button
-          className="hidden xs:flex px-3 py-1.5 text-[#FFE49A] text-sm bg-[#262626] !rounded-xl border border-[#3F3F3F] hover:bg-[#3f3f3f] transition-colors"
+          className="hidden xs:flex px-3 py-1.5 text-[#c15f3c] text-sm bg-[#262626] !rounded-xl border border-[#3F3F3F] hover:bg-[#3f3f3f] transition-colors"
           onClick={() => {
             const button = document.activeElement as HTMLButtonElement;
             const originalText = button.textContent;
@@ -196,7 +196,7 @@ export function Navbar({
 
         {/* Twitter button */}
         <button
-          className="hidden xs:flex px-3 py-1.5 text-white font-medium text-sm !rounded-xl hover:opacity-90 transition-colors bg-[#FFE49A]"
+          className="hidden xs:flex px-3 py-1.5 text-white font-medium text-sm !rounded-xl hover:opacity-90 transition-colors bg-[#c15f3c]"
           onClick={() => {
             addToast({
               type: "success",
@@ -230,15 +230,15 @@ export function Navbar({
           <div className="px-4 py-3 space-y-3">
             <nav className="flex flex-col space-y-3">
               <a
-                href="https://x.com/PokePrint3D"
+                href="https://x.com/Claud3D"
                 target="_blank"
-                className="text-white text-sm hover:text-[#FFE49A] transition-colors"
+                className="text-white text-sm hover:text-[#c15f3c] transition-colors"
               >
                 Twitter
               </a>
               <a
                 href="#"
-                className="text-white text-sm hover:text-[#FFE49A] transition-colors"
+                className="text-white text-sm hover:text-[#c15f3c] transition-colors"
               >
                 Token <span className="text-[#696969]">(Coming Soon)</span>
               </a>
@@ -250,7 +250,7 @@ export function Navbar({
 
             <div className="flex flex-col space-y-2">
               <button
-                className="w-full px-3 py-1.5 text-[#FFE49A] text-sm bg-[#262626] !rounded-xl hover:bg-[#3f3f3f]"
+                className="w-full px-3 py-1.5 text-[#c15f3c] text-sm bg-[#262626] !rounded-xl hover:bg-[#3f3f3f]"
                 onClick={() => {
                   const button = document.activeElement as HTMLButtonElement;
                   const originalText = button.textContent;
@@ -263,7 +263,7 @@ export function Navbar({
                 Connect wallet
               </button>
               <button
-                className="w-full px-3 py-1.5 text-white font-medium !rounded-xl text-sm hover:opacity-90 transition-colors bg-[#FFE49A]"
+                className="w-full px-3 py-1.5 text-white font-medium !rounded-xl text-sm hover:opacity-90 transition-colors bg-[#c15f3c]"
                 onClick={() => {
                   addToast({
                     type: "success",

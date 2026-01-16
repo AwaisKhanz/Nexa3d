@@ -346,7 +346,7 @@ export function LeftSidebar() {
                 onClick={() => window.open(TWITTER_URL, "_blank")}
               >
                 <a
-                  href="https://x.com/PokePrint3D"
+                  href="https://x.com/i/communities/2012249752759423395/"
                   target="_blank"
                   className="flex items-center"
                 >
@@ -371,7 +371,7 @@ export function LeftSidebar() {
           <div className="relative mb-4">
             <textarea
               className="w-full h-[176px] bg-[#181818] border border-solid border-[#3F3F3F] text-white text-sm p-3 rounded-xl resize-none"
-              placeholder="Full body 3D model of a Pokémon. No humans, no text."
+              placeholder="Full body 3D model of a character. No humans, no text."
               value={promptText}
               onChange={(e) => setPromptText(e.target.value)}
               disabled={isGenerating}
@@ -385,7 +385,7 @@ export function LeftSidebar() {
           <div className="mb-4">
             <div className="flex justify-between items-center mb-2">
               <span className="text-white text-sm">AI Model</span>
-              <span className="text-[#696969] text-sm">Poke3d 5</span>
+              <span className="text-[#696969] text-sm">Claud3D 5</span>
             </div>
           </div>
 
@@ -397,9 +397,9 @@ export function LeftSidebar() {
                   key={style.id}
                   className={`flex items-center justify-between px-3 py-0 ${
                     artStyle === style.id
-                      ? "border-[#FFE49A] border bg-[#262626] !text-[#FFE49A]  "
+                      ? "border-[#c15f3c] border bg-[#262626] !text-[#c15f3c]  "
                       : "bg-[#181818]"
-                  } rounded-[12px] hover:border hover:border-[#FFE49A]/50`}
+                  } rounded-[12px] hover:border hover:border-[#c15f3c]/50`}
                   onClick={() => {
                     setArtStyle(style.id);
                   }}
@@ -431,7 +431,7 @@ export function LeftSidebar() {
                   key={option.id}
                   className={`py-1.5 px-3 ${
                     polycount === option.id
-                      ? "bg-[#FFE49A]/15 !text-[#FFE49A] rounded-xl"
+                      ? "bg-[#c15f3c]/15 !text-[#c15f3c] rounded-xl"
                       : "bg-transparent text-white"
                   } text-sm rounded-md`}
                   onClick={() => setPolycount(option.id)}
@@ -448,7 +448,7 @@ export function LeftSidebar() {
                   key={level.id}
                   className={`py-1.5 px-2 ${
                     polycountLevel === level.id
-                      ? "bg-[#FFE49A]/15 text-[#FFE49A] rounded-xl"
+                      ? "bg-[#c15f3c]/15 text-[#c15f3c] rounded-xl"
                       : "bg-transparent text-white"
                   } text-xs rounded-md`}
                   onClick={() => setPolycountLevel(level.id)}
@@ -471,7 +471,7 @@ export function LeftSidebar() {
                   key={option.id}
                   className={`flex items-center justify-center py-1.5 px-3 ${
                     topology === option.id
-                      ? "bg-[#FFE49A]/15 text-[#FFE49A] rounded-xl"
+                      ? "bg-[#c15f3c]/15 text-[#c15f3c] rounded-xl"
                       : "bg-transparent text-white"
                   } text-sm rounded-md`}
                   onClick={() => setTopology(option.id)}
@@ -492,7 +492,7 @@ export function LeftSidebar() {
                   key={option.id}
                   className={`py-1.5 px-3 ${
                     symmetry === option.id
-                      ? "bg-[#FFE49A]/15 text-[#FFE49A] rounded-xl"
+                      ? "bg-[#c15f3c]/15 text-[#c15f3c] rounded-xl"
                       : "bg-transparent text-white"
                   } text-sm rounded-md`}
                   onClick={() => setSymmetry(option.id)}
@@ -512,7 +512,7 @@ export function LeftSidebar() {
               </div>
               <button
                 className={`w-10 h-5 rounded-full relative ${
-                  fixedSeed ? "bg-[#FFE49A]" : "bg-[#3f3f3f]"
+                  fixedSeed ? "bg-[#c15f3c]" : "bg-[#3f3f3f]"
                 }`}
                 onClick={() => setFixedSeed(!fixedSeed)}
                 disabled={isGenerating}
@@ -552,7 +552,7 @@ export function LeftSidebar() {
             </div>
           </div>
           <button
-            className="w-full py-2 bg-[#FFE49A] text-white rounded-md flex items-center justify-center disabled:opacity-50"
+            className="w-full py-2 bg-[#c15f3c] text-white rounded-md flex items-center justify-center disabled:opacity-50"
             onClick={handleGenerate}
             disabled={isGenerating || !promptText.trim()}
           >
@@ -618,7 +618,7 @@ export function LeftSidebar() {
           </div>
         </div>
         <button
-          className="w-full py-2 bg-[#FFE49A] text-white !rounded-xl flex items-center justify-center disabled:opacity-50"
+          className="w-full py-2 bg-[#c15f3c] text-white !rounded-xl flex items-center justify-center disabled:opacity-50"
           onClick={handleGenerate}
           disabled={isGenerating || !promptText.trim()}
         >

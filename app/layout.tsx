@@ -10,10 +10,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Poke3d</title>
+        <title>Claud3D</title>
         <meta
           name="description"
-          content="Poke3d - AI-powered 3D model generation"
+          content="Claud3D - AI-powered 3D model generation"
         />
       </head>
       <body>
